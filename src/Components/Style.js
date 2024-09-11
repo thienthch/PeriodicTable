@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WrapperScreen = styled.div`
-    background-color: #1B232A;
+    background-color: #1A191D;
     width: 100%;
     height: 800px;
     display: flex;

@@ -5,6 +5,7 @@ const data = [
         name: 'Hydrogen',
         number: '1',
         symbol: 'H',
+        category: 1,
         atomic: '1.008',
     },
     {
@@ -13,6 +14,7 @@ const data = [
         name: 'Helium',
         number: '2',
         symbol: 'He',
+        category: 9,
         atomic: '4.0026',
     },
     {
@@ -21,6 +23,7 @@ const data = [
         name: 'Lithium',
         number: '3',
         symbol: 'Li',
+        category: 1,
         atomic: '6.94',
     },
     {
@@ -29,6 +32,7 @@ const data = [
         name: 'Beryllium',
         number: '4',
         symbol: 'Be',
+        category: 2,
         atomic: '9.0122',
     },
     {
@@ -37,6 +41,7 @@ const data = [
         name: 'Boron',
         number: '5',
         symbol: 'B',
+        category: 7,
         atomic: '10.81',
     },
     {
@@ -45,6 +50,7 @@ const data = [
         name: 'Carbon',
         number: '6',
         symbol: 'C',
+        category: 8,
         atomic: '12.011',
     },
     {
@@ -53,6 +59,7 @@ const data = [
         name: 'Nitrogen',
         number: '7',
         symbol: 'Ni',
+        category: 8,
         atomic: '14.007',
     },
     {
@@ -61,6 +68,7 @@ const data = [
         name: 'Oxigen',
         number: '8',
         symbol: 'O',
+        category: 8,
         atomic: '15.999',
     },
     {
@@ -69,6 +77,7 @@ const data = [
         name: 'Flourine',
         number: '9',
         symbol: 'F',
+        category: 8,
         atomic: '18.988',
     },
     {
@@ -77,6 +86,7 @@ const data = [
         name: 'Neon',
         number: '10',
         symbol: 'Ne',
+        category: 9,
         atomic: '20.18',
     },
     {
@@ -85,6 +95,7 @@ const data = [
         name: 'Sodium',
         number: '11',
         symbol: 'Na',
+        category: 1,
         atomic: '22.99',
     },
     {
@@ -93,6 +104,7 @@ const data = [
         name: 'Magnesium',
         number: '12',
         symbol: 'Mg',
+        category: 2,
         atomic: '24.305',
     },
     {
@@ -101,6 +113,7 @@ const data = [
         name: 'Aluminium',
         number: '13',
         symbol: 'Al',
+        category: 6,
         atomic: '26.982',
     },
     {
@@ -109,6 +122,7 @@ const data = [
         name: 'Silicon',
         number: '14',
         symbol: 'Si',
+        category: 7,
         atomic: '28.085',
     },
     {
@@ -117,6 +131,7 @@ const data = [
         name: 'Phosphorus',
         number: '15',
         symbol: 'P',
+        category: 8,
         atomic: '30.974',
     },
     {
@@ -125,6 +140,7 @@ const data = [
         name: 'Sulfur',
         number: '16',
         symbol: 'S',
+        category: 8,
         atomic: '32.06',
     },
     {
@@ -133,6 +149,7 @@ const data = [
         name: 'Chlorine',
         number: '17',
         symbol: 'Cl',
+        category: 8,
         atomic: '35.45',
     },
     {
@@ -141,6 +158,7 @@ const data = [
         name: 'Argon',
         number: '18',
         symbol: 'Ar',
+        category: 9,
         atomic: '39.948',
     },
     {
@@ -149,6 +167,7 @@ const data = [
         name: 'Potassium',
         number: '19',
         symbol: 'K',
+        category: 1,
         atomic: '39.098',
     },
     {
@@ -157,6 +176,7 @@ const data = [
         name: 'Calcium',
         number: '20',
         symbol: 'Ca',
+        category: 2,
         atomic: '40.078',
     },
     {
@@ -165,6 +185,7 @@ const data = [
         name: 'Scansium',
         number: '21',
         symbol: 'Sc',
+        category: 5,
         atomic: '44.956',
     },
     {
@@ -173,6 +194,7 @@ const data = [
         name: 'Titanium',
         number: '22',
         symbol: 'Ti',
+        category: 5,
         atomic: '47.867',
     },
     {
@@ -181,6 +203,7 @@ const data = [
         name: 'Vanadium',
         number: '23',
         symbol: 'V',
+        category: 5,
         atomic: '50.942',
     },
     {
@@ -189,6 +212,7 @@ const data = [
         name: 'Chromium',
         number: '24',
         symbol: 'Cr',
+        category: 5,
         atomic: '51.996',
     },
     {
@@ -197,6 +221,7 @@ const data = [
         name: 'Manganese',
         number: '25',
         symbol: 'Mn',
+        category: 5,
         atomic: '54.938',
     },
     {
@@ -205,6 +230,7 @@ const data = [
         name: 'Iron',
         number: '26',
         symbol: 'Fe',
+        category: 5,
         atomic: '55.845',
     },
     {
@@ -213,6 +239,7 @@ const data = [
         name: 'Cobalt',
         number: '27',
         symbol: 'Co',
+        category: 5,
         atomic: '58.933',
     },
     {
@@ -221,6 +248,7 @@ const data = [
         name: 'Nickel',
         number: '28',
         symbol: 'Ni',
+        category: 5,
         atomic: '58.693',
     },
     {
@@ -229,6 +257,7 @@ const data = [
         name: 'Copper',
         number: '29',
         symbol: 'Cu',
+        category: 5,
         atomic: '63.546',
     },
     {
@@ -237,6 +266,7 @@ const data = [
         name: 'Zinc',
         number: '30',
         symbol: 'Zn',
+        category: 5,
         atomic: '65.38',
     },
     {
@@ -245,6 +275,7 @@ const data = [
         name: 'Gallium',
         number: '31',
         symbol: 'Ga',
+        category: 6,
         atomic: '69.723',
     },
     {
@@ -253,6 +284,7 @@ const data = [
         name: 'Germanium',
         number: '32',
         symbol: 'Ge',
+        category: 7,
         atomic: '72.63',
     },
     {
@@ -261,6 +293,7 @@ const data = [
         name: 'Arsenic',
         number: '33',
         symbol: 'As',
+        category: 7,
         atomic: '74.922',
     },
     {
@@ -269,6 +302,7 @@ const data = [
         name: 'Selenium',
         number: '34',
         symbol: 'Se',
+        category: 8,
         atomic: '78.971',
     },
     {
@@ -277,6 +311,7 @@ const data = [
         name: 'Bromine',
         number: '35',
         symbol: 'Br',
+        category: 8,
         atomic: '79.904',
     },
     {
@@ -285,6 +320,7 @@ const data = [
         name: 'Krypton',
         number: '36',
         symbol: 'Kr',
+        category: 9,
         atomic: '83.798',
     },
     {
@@ -293,6 +329,7 @@ const data = [
         name: 'Rubidium',
         number: '37',
         symbol: 'Rb',
+        category: 1,
         atomic: '85.468',
     },
     {
@@ -301,6 +338,7 @@ const data = [
         name: 'Strontium',
         number: '38',
         symbol: 'Sr',
+        category: 2,
         atomic: '87.62',
     },
     {
@@ -309,6 +347,7 @@ const data = [
         name: 'Yttrium',
         number: '39',
         symbol: 'Y',
+        category: 5,
         atomic: '88.906',
     },
     {
@@ -317,6 +356,7 @@ const data = [
         name: 'Zirconium',
         number: '40',
         symbol: 'Zr',
+        category: 5,
         atomic: '91.224',
     },
     {
@@ -325,6 +365,7 @@ const data = [
         name: 'Niobium',
         number: '41',
         symbol: 'Nb',
+        category: 5,
         atomic: '92.906',
     },
     {
@@ -333,6 +374,7 @@ const data = [
         name: 'Molybdenum',
         number: '42',
         symbol: 'Mo',
+        category: 5,
         atomic: '95.95',
     },
     {
@@ -341,6 +383,7 @@ const data = [
         name: 'Technetium',
         number: '43',
         symbol: 'Tc',
+        category: 5,
         atomic: '98',
     },
     {
@@ -349,6 +392,7 @@ const data = [
         name: 'Ruthenium',
         number: '44',
         symbol: 'Ru',
+        category: 5,
         atomic: '101.07',
     },
     {
@@ -357,6 +401,7 @@ const data = [
         name: 'Rhodium',
         number: '45',
         symbol: 'Rh',
+        category: 5,
         atomic: '102.91',
     },
     {
@@ -365,6 +410,7 @@ const data = [
         name: 'Palladium',
         number: '46',
         symbol: 'Pd',
+        category: 5,
         atomic: '106.42',
     },
     {
@@ -373,6 +419,7 @@ const data = [
         name: 'Silver',
         number: '47',
         symbol: 'Ag',
+        category: 5,
         atomic: '107.87',
     },
     {
@@ -381,6 +428,7 @@ const data = [
         name: 'Cadmium',
         number: '48',
         symbol: 'Cd',
+        category: 5,
         atomic: '112.41',
     },
     {
@@ -389,6 +437,7 @@ const data = [
         name: 'Indium',
         number: '49',
         symbol: 'In',
+        category: 6,
         atomic: '114.82',
     },
     {
@@ -397,6 +446,7 @@ const data = [
         name: 'Tin',
         number: '50',
         symbol: 'Sn',
+        category: 6,
         atomic: '118.711',
     },
     {
@@ -405,6 +455,7 @@ const data = [
         name: 'Antimony',
         number: '51',
         symbol: 'Sb',
+        category: 7,
         atomic: '121.76',
     },
     {
@@ -413,6 +464,7 @@ const data = [
         name: 'Tellurium',
         number: '52',
         symbol: 'Te',
+        category: 7,
         atomic: '127.6',
     },
     {
@@ -421,6 +473,7 @@ const data = [
         name: 'Iodine',
         number: '53',
         symbol: 'I',
+        category: 8,
         atomic: '126.9',
     },
     {
@@ -429,6 +482,7 @@ const data = [
         name: 'Xenon',
         number: '54',
         symbol: 'Xe',
+        category: 9,
         atomic: '131.29',
     },
     {
@@ -437,6 +491,7 @@ const data = [
         name: 'Caesium',
         number: '55',
         symbol: 'Cs',
+        category: 1,
         atomic: '132.91',
     },
     {
@@ -445,6 +500,7 @@ const data = [
         name: 'Barium',
         number: '56',
         symbol: 'Ba',
+        category: 2,
         atomic: '137.33',
     },
     {
@@ -453,6 +509,7 @@ const data = [
         name: '57-71',
         number: '',
         symbol: '',
+        category: 1,
         atomic: '',
     },
     {
@@ -461,6 +518,7 @@ const data = [
         name: 'Hafnium',
         number: '72',
         symbol: 'Hf',
+        category: 5,
         atomic: '178.49',
     },
     {
@@ -469,6 +527,7 @@ const data = [
         name: 'Tantalum',
         number: '73',
         symbol: 'Ta',
+        category: 5,
         atomic: '180.95',
     },
     {
@@ -477,6 +536,7 @@ const data = [
         name: 'Tungsten',
         number: '74',
         symbol: 'W',
+        category: 5,
         atomic: '183.84',
     },
     {
@@ -485,6 +545,7 @@ const data = [
         name: 'Rhenium',
         number: '75',
         symbol: 'Re',
+        category: 5,
         atomic: '186.21',
     },
     {
@@ -493,6 +554,7 @@ const data = [
         name: 'Osmium',
         number: '76',
         symbol: 'Os',
+        category: 5,
         atomic: '190.23',
     },
     {
@@ -501,6 +563,7 @@ const data = [
         name: 'Iridium',
         number: '77',
         symbol: 'Ir',
+        category: 5,
         atomic: '192.22',
     },
     {
@@ -509,6 +572,7 @@ const data = [
         name: 'Platinum',
         number: '78',
         symbol: 'Pt',
+        category: 5,
         atomic: '195.08',
     },
     {
@@ -517,6 +581,7 @@ const data = [
         name: 'Gold',
         number: '79',
         symbol: 'Au',
+        category: 5,
         atomic: '196.97',
     },
     {
@@ -525,6 +590,7 @@ const data = [
         name: 'Mercury',
         number: '80',
         symbol: 'Hg',
+        category: 5,
         atomic: '200.59',
     },
     {
@@ -533,6 +599,7 @@ const data = [
         name: 'Thallium',
         number: '81',
         symbol: 'Tl',
+        category: 6,
         atomic: '204.38',
     },
     {
@@ -541,6 +608,7 @@ const data = [
         name: 'Lead',
         number: '82',
         symbol: 'Pb',
+        category: 6,
         atomic: '207.2',
     },
     {
@@ -549,6 +617,7 @@ const data = [
         name: 'Bismuth',
         number: '83',
         symbol: 'Bi',
+        category: 6,
         atomic: '208.98',
     },
     {
@@ -557,6 +626,7 @@ const data = [
         name: 'Polonium',
         number: '84',
         symbol: 'Bo',
+        category: 6,
         atomic: '209',
     },
     {
@@ -565,6 +635,7 @@ const data = [
         name: 'Astatine',
         number: '85',
         symbol: 'At',
+        category: 7,
         atomic: '210',
     },
     {
@@ -573,6 +644,7 @@ const data = [
         name: 'Radon',
         number: '86',
         symbol: 'Rn',
+        category: 9,
         atomic: '222',
     },
     {
@@ -581,6 +653,7 @@ const data = [
         name: 'Francium',
         number: '87',
         symbol: 'Fr',
+        category: 1,
         atomic: '223',
     },
     {
@@ -589,6 +662,7 @@ const data = [
         name: 'Radium',
         number: '88',
         symbol: 'Ra',
+        category: 2,
         atomic: '226',
     },
     {
@@ -597,6 +671,7 @@ const data = [
         name: '89-103',
         number: '',
         symbol: '',
+        category: 1,
         atomic: '',
     },
     {
@@ -605,6 +680,7 @@ const data = [
         name: 'Rutherfordium',
         number: '104',
         symbol: 'Rf',
+        category: 5,
         atomic: '267',
     },
     {
@@ -613,6 +689,7 @@ const data = [
         name: 'Dubnium',
         number: '105',
         symbol: 'Db',
+        category: 5,
         atomic: '268',
     },
     {
@@ -621,6 +698,7 @@ const data = [
         name: 'Seaborgium',
         number: '106',
         symbol: 'Sg',
+        category: 5,
         atomic: '269',
     },
     {
@@ -629,6 +707,7 @@ const data = [
         name: 'Bohrium',
         number: '107',
         symbol: 'Bh',
+        category: 5,
         atomic: '270',
     },
     {
@@ -637,6 +716,7 @@ const data = [
         name: 'Hassium',
         number: '108',
         symbol: 'Hs',
+        category: 5,
         atomic: '277',
     },
     {
@@ -645,6 +725,7 @@ const data = [
         name: 'Meitnerium',
         number: '109',
         symbol: 'Mt',
+        category: 10,
         atomic: '278',
     },
     {
@@ -653,6 +734,7 @@ const data = [
         name: 'Darmstadtium',
         number: '110',
         symbol: 'Ds',
+        category: 10,
         atomic: '281',
     },
     {
@@ -661,6 +743,7 @@ const data = [
         name: 'Roentgenium',
         number: '111',
         symbol: 'Rg',
+        category: 10,
         atomic: '282',
     },
     {
@@ -669,6 +752,7 @@ const data = [
         name: 'Copernicium',
         number: '112',
         symbol: 'Cn',
+        category: 5,
         atomic: '282',
     },
     {
@@ -677,6 +761,7 @@ const data = [
         name: 'Nihonium',
         number: '113',
         symbol: 'Nh',
+        category: 10,
         atomic: '286',
     },
     {
@@ -685,6 +770,7 @@ const data = [
         name: 'Flerovium',
         number: '114',
         symbol: 'Fl',
+        category: 6,
         atomic: '289',
     },
     {
@@ -693,6 +779,7 @@ const data = [
         name: 'Moscovium',
         number: '115',
         symbol: 'Mc',
+        category: 10,
         atomic: '290',
     },
     {
@@ -701,6 +788,7 @@ const data = [
         name: 'Livermorium',
         number: '116',
         symbol: 'Lv',
+        category: 10,
         atomic: '293',
     },
     {
@@ -709,6 +797,7 @@ const data = [
         name: 'Tennessine',
         number: '117',
         symbol: 'Ts',
+        category: 10,
         atomic: '294',
     },
     {
@@ -717,6 +806,7 @@ const data = [
         name: 'Oganesson',
         number: '118',
         symbol: 'Og',
+        category: 10,
         atomic: '294',
     },
     {
@@ -725,6 +815,7 @@ const data = [
         name: 'Lanthanum',
         number: '57',
         symbol: 'La',
+        category: 3,
         atomic: '138.91',
     },
     {
@@ -733,6 +824,7 @@ const data = [
         name: 'Cerium',
         number: '58',
         symbol: 'Ce',
+        category: 3,
         atomic: '140.12',
     },
     {
@@ -741,6 +833,7 @@ const data = [
         name: 'Praseodymium',
         number: '59',
         symbol: 'Pr',
+        category: 3,
         atomic: '140.91',
     },
     {
@@ -749,6 +842,7 @@ const data = [
         name: 'Neodymium',
         number: '60',
         symbol: 'Nd',
+        category: 3,
         atomic: '144.24',
     },
     {
@@ -757,6 +851,7 @@ const data = [
         name: 'Promethium',
         number: '61',
         symbol: 'Pm',
+        category: 3,
         atomic: '144.24',
     },
     {
@@ -765,6 +860,7 @@ const data = [
         name: 'Samarium',
         number: '62',
         symbol: 'Sm',
+        category: 3,
         atomic: '150.36',
     },
     {
@@ -773,6 +869,7 @@ const data = [
         name: 'Europium',
         number: '63',
         symbol: 'Eu',
+        category: 3,
         atomic: '151.96',
     },
     {
@@ -781,6 +878,7 @@ const data = [
         name: 'Gadolinium',
         number: '64',
         symbol: 'Gd',
+        category: 3,
         atomic: '157.25',
     },
     {
@@ -789,6 +887,7 @@ const data = [
         name: 'Terbium',
         number: '65',
         symbol: 'Tb',
+        category: 3,
         atomic: '168.93',
     },
     {
@@ -797,6 +896,7 @@ const data = [
         name: 'Dysprosium',
         number: '66',
         symbol: 'Dy',
+        category: 3,
         atomic: '162.5',
     },
     {
@@ -805,6 +905,7 @@ const data = [
         name: 'Holmium',
         number: '67',
         symbol: 'Ho',
+        category: 3,
         atomic: '164.93',
     },
     {
@@ -813,6 +914,7 @@ const data = [
         name: 'Erbium',
         number: '68',
         symbol: 'Er',
+        category: 3,
         atomic: '167.26',
     },
     {
@@ -821,6 +923,7 @@ const data = [
         name: 'Thulium',
         number: '69',
         symbol: 'Tm',
+        category: 3,
         atomic: '168.93',
     },
     {
@@ -829,6 +932,7 @@ const data = [
         name: 'Ytterbium',
         number: '70',
         symbol: 'Yb',
+        category: 3,
         atomic: '173.05',
     },
     {
@@ -837,6 +941,7 @@ const data = [
         name: 'Lutetium',
         number: '71',
         symbol: 'Lu',
+        category: 3,
         atomic: '174.97',
     },
     {
@@ -845,6 +950,7 @@ const data = [
         name: 'Actinium',
         number: '89',
         symbol: 'Ac',
+        category: 4,
         atomic: '227',
     },
     {
@@ -853,6 +959,7 @@ const data = [
         name: 'Thorium',
         number: '90',
         symbol: 'Th',
+        category: 4,
         atomic: '232.04',
     },
     {
@@ -861,6 +968,7 @@ const data = [
         name: 'Protactinium',
         number: '91',
         symbol: 'Pa',
+        category: 4,
         atomic: '231.04',
     },
     {
@@ -869,6 +977,7 @@ const data = [
         name: 'Uranium',
         number: '92',
         symbol: 'U',
+        category: 4,
         atomic: '238.03',
     },
     {
@@ -877,6 +986,7 @@ const data = [
         name: 'Neptunium',
         number: '93',
         symbol: 'Np',
+        category: 4,
         atomic: '237',
     },
     {
@@ -885,6 +995,7 @@ const data = [
         name: 'Plutonium',
         number: '94',
         symbol: 'Pu',
+        category: 4,
         atomic: '244',
     },
     {
@@ -893,6 +1004,7 @@ const data = [
         name: 'Americium',
         number: '95',
         symbol: 'Am',
+        category: 4,
         atomic: '243',
     },
     {
@@ -901,6 +1013,7 @@ const data = [
         name: 'Curium',
         number: '96',
         symbol: 'Cm',
+        category: 4,
         atomic: '247',
     },
     {
@@ -909,6 +1022,7 @@ const data = [
         name: 'Berkelium',
         number: '97',
         symbol: 'Bk',
+        category: 4,
         atomic: '247',
     },
     {
@@ -917,6 +1031,7 @@ const data = [
         name: 'Californium',
         number: '98',
         symbol: 'Cf',
+        category: 4,
         atomic: '251',
     },
     {
@@ -925,6 +1040,7 @@ const data = [
         name: 'Einsteinium',
         number: '99',
         symbol: 'Es',
+        category: 4,
         atomic: '252',
     },
     {
@@ -933,6 +1049,7 @@ const data = [
         name: 'Fermium',
         number: '100',
         symbol: 'Fm',
+        category: 4,
         atomic: '257',
     },
     {
@@ -941,6 +1058,7 @@ const data = [
         name: 'Mendelevium',
         number: '101',
         symbol: 'Md',
+        category: 4,
         atomic: '258',
     },
     {
@@ -949,6 +1067,7 @@ const data = [
         name: 'Nobelium',
         number: '102',
         symbol: 'No',
+        category: 4,
         atomic: '259',
     },
     {
@@ -957,6 +1076,7 @@ const data = [
         name: 'Lawrencium',
         number: '103',
         symbol: 'Lr',
+        category: 4,
         atomic: '266',
     }
 ]
